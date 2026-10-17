@@ -1,0 +1,14 @@
+{
+  "name": "x-extra-earning-bot",
+  "version": "1.0.0",
+  "description": "Telegram task and referral rewards bot",
+  "main": "index.js",
+  "scripts": { "start": "node index.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "grammy": "^1.35.0",
+    "pg": "^8.13.1"
+  }
+}
